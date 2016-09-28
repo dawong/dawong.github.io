@@ -1,3 +1,313 @@
-Hello World, Hear me ROAR
+<!DOCTYPE html>
+<html lang="en">
 
-Sup c$
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Danny Wong - Web Developer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<style type="text/css">
+i[class*=" devicon-"]{
+  position: relative;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+
+.devicon-javascript-plain:before {
+/*--adjust as necessary--*/
+}
+</style>
+<script>
+
+</script>
+
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Danny Wong</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Skills</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Experience</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div id="nametag" class="text-vertical-center">
+            <h1>Hello World, I'm Danny<span class="flicker">|</span></h1>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>I am an associciate web developer working in the Bay Area.</h2>
+                    <p class="lead">I develop and maintain web stack technologies using modern languages and frameworks. I am working towards becoming an
+                      experienced and knowledgable full stack web developer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>My Skills</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa devicon-javascript-plain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>JavaScript</strong>
+                                </h4>
+                                <p>The programming language of HTML and the Web.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa devicon-php-plain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>PHP</strong>
+                                </h4>
+                                <p>Server-side scripting language for web development</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa devicon-mysql-plain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Database</strong>
+                                </h4>
+                                <p>Relational Database Management Systems (PostgreSQL, MySQL)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa fa-html5 fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>HTML/CSS</strong>
+                                </h4>
+                                <p>Markup and Styling languages for websites</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa devicon-angularjs-plain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>AngularJS</strong>
+                                </h4>
+                                <p>Structural framework for dynamic web apps</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa devicon-nodejs-plain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Node.js</strong>
+                                </h4>
+                                <p>Cross-platform runtime environment for server-side and networking applications</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa devicon-drupal-plain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Drupal</strong>
+                                </h4>
+                                <p>Web content management platform</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <i class="fa devicon-linux-plain fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Linux</strong>
+                                </h4>
+                                <p>An open-source operating system modelled on UNIX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2 class="text-center">Experience</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img class="img-responsive" src="img/ucsb_logo.jpg">
+                                <p class="text-center"><strong>Bachelors of Science, Computer Science (2009-2013)</strong></p>
+                                <ul>
+                                  <li>Developed Risk-style UI and game using c++</li>
+                                  <li>Created day planning app for android using java</li>
+                                  <li>knowledge of parallel programming, algorithms, data structures
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="portfolio-item">
+                               <img class="img-responsive" src="img/nolo_logo.jpg">
+                               <p class="text-center"><strong>Associate Web Developer (Sep 2013 - present)</strong></p>
+                               <ul>
+                                 <li>Worked on web platform using angularJS, java, and postgreSQL</li>
+                                 <li>Developed front-end code for web application using PHP and Yii</li>
+                                 <li>Wrote unit/product tests and performed QA testing on new products</li>
+                                 <li>Data migration from MySQL database system to PostgreSQL database system</li>
+                               </ul>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/in/dawong3" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            <a href="https://github.com/dawong" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Danny Wong 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+
+    setInterval(function() {
+        var bar = $(".flicker");
+        var text = bar.html() === "|" ? " " : "|";
+        $(".flicker").html(text);
+    }, 1000);
+    
+    </script>
+
+</body>
+
+</html>
