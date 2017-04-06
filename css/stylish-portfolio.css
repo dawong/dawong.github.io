@@ -236,6 +236,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background-color: #eee;
 }
 
 .call-to-action .btn {
@@ -258,4 +259,9 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+/* Projects */
+.example-work {
+    padding: 0 0 50px 0;
 }
