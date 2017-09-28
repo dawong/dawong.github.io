@@ -1,0 +1,27 @@
+#container {
+	height: 100px;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+#box {
+	width: 100px;
+	height: 100px;
+	background: grey;
+}
+#box:hover {
+	background: green;
+	position: relative;
+	animation: example 10s infinite linear;
+}
+@keyframes example {
+	0% {left:0px; top:0px;}
+    50% {left: 500px;} 
+    100% {left:0px;}
+}
+
+#playAgain {
+	display: none;
+}
